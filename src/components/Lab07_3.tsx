@@ -12,7 +12,7 @@ const Lab07_03 = () => {
 
   return (
     <div>
-      <h1>{time.toLocaleTimeString()}</h1>
+      <h1>{time.toLocaleTimeString("en-US", { hour12: true })}</h1>
     </div>
   );
 };
